@@ -1,0 +1,13 @@
+prefix=D:/ai workspace/football/earth/Library
+exec_prefix=D:/ai workspace/football/earth/Library
+libdir=D:/ai workspace/football/earth/Library/lib
+sharedlibdir=D:/ai workspace/football/earth/Library/lib
+includedir=D:/ai workspace/football/earth/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
